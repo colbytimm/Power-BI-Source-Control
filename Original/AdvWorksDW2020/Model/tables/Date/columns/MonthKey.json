@@ -1,0 +1,18 @@
+{
+  "name": "MonthKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "MonthKey",
+  "formatString": "0",
+  "summarizeBy": "count",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

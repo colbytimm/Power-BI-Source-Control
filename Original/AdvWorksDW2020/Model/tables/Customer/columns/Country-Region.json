@@ -1,0 +1,12 @@
+{
+  "name": "Country-Region",
+  "dataType": "string",
+  "sourceColumn": "Country-Region",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

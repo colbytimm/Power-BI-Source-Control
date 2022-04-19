@@ -1,0 +1,12 @@
+{
+  "name": "Fiscal Year",
+  "dataType": "string",
+  "sourceColumn": "Fiscal Year",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

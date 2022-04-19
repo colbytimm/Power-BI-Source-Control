@@ -1,0 +1,12 @@
+{
+  "name": "Group",
+  "dataType": "string",
+  "sourceColumn": "Group",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

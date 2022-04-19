@@ -1,0 +1,25 @@
+{
+  "name": "Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Date",
+  "formatString": "m/dd/yy",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeCustom\"><DateTimes><DateTime LCID=\"4105\" Group=\"ShortDate\" FormatString=\"M/dd/yy\" /></DateTimes></Format>"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"FormatString\"]"
+    }
+  ]
+}

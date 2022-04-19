@@ -1,0 +1,13 @@
+{
+  "name": "Full Date",
+  "dataType": "string",
+  "sourceColumn": "Full Date",
+  "isDefaultLabel": true,
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

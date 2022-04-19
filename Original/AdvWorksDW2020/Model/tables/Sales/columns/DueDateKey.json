@@ -1,0 +1,18 @@
+{
+  "name": "DueDateKey",
+  "dataType": "int64",
+  "isHidden": true,
+  "sourceColumn": "DueDateKey",
+  "formatString": "0",
+  "summarizeBy": "count",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"IsHidden\"]"
+    }
+  ]
+}

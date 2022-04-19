@@ -1,0 +1,22 @@
+{
+  "name": "Random",
+  "partitions": [
+    {
+      "name": "Random-1eee0282-ba10-4289-a465-df1ad8dc114e",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

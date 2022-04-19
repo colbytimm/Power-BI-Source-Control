@@ -1,0 +1,12 @@
+{
+  "name": "Reseller ID",
+  "dataType": "string",
+  "sourceColumn": "Reseller ID",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

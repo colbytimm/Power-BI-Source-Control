@@ -1,0 +1,54 @@
+{
+  "name": "ac7ead33e3d4ad07a58f",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 10,
+        "y": 0,
+        "width": 280,
+        "height": 280,
+        "z": 0
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "advanceCardE03760C5AB684758B56AA29F9E6C257B",
+    "projections": {
+      "mainMeasure": [
+        {
+          "queryRef": "Min(Date.Month)"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Date",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Month"
+              }
+            },
+            "Function": 3
+          },
+          "Name": "Min(Date.Month)"
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

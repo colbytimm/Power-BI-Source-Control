@@ -1,0 +1,1 @@
+"https://raw.githubusercontent.com/pbi-tools/adventureworksdw2020-pbix/main/data/" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]

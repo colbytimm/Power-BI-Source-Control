@@ -1,0 +1,13 @@
+{
+  "name": "Sales Order Line",
+  "dataType": "string",
+  "sourceColumn": "Sales Order Line",
+  "isDefaultLabel": true,
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

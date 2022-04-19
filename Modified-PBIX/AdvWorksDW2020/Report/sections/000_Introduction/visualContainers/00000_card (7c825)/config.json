@@ -1,0 +1,80 @@
+{
+  "name": "7c82595ef9702a5e9913",
+  "layouts": [
+    {
+      "id": 0,
+      "position": {
+        "x": 40.572597137014313,
+        "y": 393.94683026584869,
+        "z": 1001,
+        "width": 359.2638036809816,
+        "height": 280.08179959100204
+      }
+    }
+  ],
+  "singleVisual": {
+    "visualType": "card",
+    "projections": {
+      "Values": [
+        {
+          "queryRef": "Min(Date.Date)"
+        }
+      ]
+    },
+    "prototypeQuery": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "d",
+          "Entity": "Date",
+          "Type": 0
+        }
+      ],
+      "Select": [
+        {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Source": "d"
+                  }
+                },
+                "Property": "Date"
+              }
+            },
+            "Function": 3
+          },
+          "Name": "Min(Date.Date)"
+        }
+      ],
+      "OrderBy": [
+        {
+          "Direction": 1,
+          "Expression": {
+            "Aggregation": {
+              "Expression": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Source": "d"
+                    }
+                  },
+                  "Property": "Date"
+                }
+              },
+              "Function": 3
+            }
+          }
+        }
+      ]
+    },
+    "columnProperties": {
+      "Min(Date.Date)": {
+        "displayName": "Modified"
+      }
+    },
+    "drillFilterOtherVisuals": true,
+    "hasDefaultSort": true
+  }
+}
